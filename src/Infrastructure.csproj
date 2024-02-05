@@ -838,6 +838,7 @@
     <Compile Include="Emulator/Peripherals/Peripherals/Wireless/CC2538/InterruptRegister.cs" />
     <Compile Include="Emulator/Peripherals/Peripherals/Wireless/CC2538/InterruptSource.cs" />
     <Compile Include="Emulator/Peripherals/Peripherals/Wireless/CC2538RF.cs" />
+    <Compile Include="Emulator/Peripherals/Peripherals/Wireless/CC13x2RF.cs" />
     <Compile Include="Emulator/Peripherals/Peripherals/Wireless/AT86RF233.cs" />
     <Compile Include="Emulator/Peripherals/Peripherals/I2C/STM32F7_I2C.cs" />
     <Compile Include="Emulator/Peripherals/Peripherals/Input/FT5336.cs" />
