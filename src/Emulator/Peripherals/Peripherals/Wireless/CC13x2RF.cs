@@ -79,12 +79,13 @@ namespace Antmicro.Renode.Peripherals.Wireless
         }
 
 
-        public long Size { get { return 0x1000; } }
+        public long Size { get { return 0x4000; } }
         public int Channel { get; set; }
         public event Action<IRadio, byte[]> FrameSent;
         private readonly InterruptHandler<InterruptRegister, InterruptSource> irqHandler;
         private readonly DoubleWordRegisterCollection registers;
-        public GPIO IRQ { get; private set; }
+        // should be private set, but easier to debug by making it public
+        public GPIO IRQ { get; set; }
         
         private enum Register
         {
