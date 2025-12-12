@@ -86,7 +86,7 @@ namespace Antmicro.Renode.Peripherals.Wireless
         private readonly DoubleWordRegisterCollection registers;
         // should be private set, but easier to debug by making it public
         public GPIO IRQ { get; set; }
-        
+
         private enum Register
         {
             Pokeme = 0x0,
@@ -103,4 +103,3 @@ namespace Antmicro.Renode.Peripherals.Wireless
         }
     }
 }
-
