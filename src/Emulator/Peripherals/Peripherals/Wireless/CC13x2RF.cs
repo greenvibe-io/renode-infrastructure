@@ -57,7 +57,7 @@ namespace Antmicro.Renode.Peripherals.Wireless
             return;
         }
 
-        public void ReceiveFrame(byte[] bytes)
+        public void ReceiveFrame(byte[] bytes, IRadio sender)
         {
         }
 
